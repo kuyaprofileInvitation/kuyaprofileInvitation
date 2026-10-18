@@ -13,6 +13,7 @@ const people = [
   {name:"A-SHEN-TADES", followers:"4,9K Friends/ 1,9M", avatar:"Profiles/tades.jpg", banner:"Banners/tades_banner.jpg", badge:"♥Kuya's Pinned!♥", streak:"890K", gif:"streak.gif"},
   {name:"TOZI [NOODLE BIG BACK]", followers:"600 Friends/ 300K", avatar:"Profiles/tozi.jpg", banner:"Banners/tozi_banner.jpg", badge:"♥Kuya's Pinned!♥", streak:"789M", gif:"streak.gif"},
   {name:"Clenn", followers:"90 Friends/ 1,2M", avatar:"Profiles/clenn.gif", banner:"Banners/NoBanner.webp", badge:"♥Kuya's Pinned!♥", streak:"789M", gif:"streak.gif"},
+  {name:"Hottie", followers:"120 Friends/110M", avatar:"Profiles/hottie-kottie.gif", banner:"Banners/NoBanner.webp", badge:"♥Kuya's Pinned!♥", streak:"789M", gif:"streak.gif"},
   {name:"Auddo!", followers:"983 Friends/ 890", avatar:"Profiles/Auddo.webp", banner:"Banners/NoBanner.webp", badge:"♥Kuya's Pinned!♥", streak:"890M", gif:"streak.gif"},
   {name:"Yoriyen", followers:"7 Friends/ 6,2M", avatar:"Profiles/yoriyen.webp", banner:"Banners/yoriyen_banner.jpg", badge:"DEV!", streak:"234", gif:"streak.gif"},
   {name:"Daniela", followers:"567 Friends/ 340K", avatar:"Profiles/Daniela.webp", banner:"Banners/NoBanner.webp", badge:"Kuya's most talk to.✦", streak:"567K", gif:"streak.gif"},
