@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KUYA // PROFILE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="intro">
+    <div class="intro-noise"></div>
+    <div class="intro-symbol">K</div>
+    <div class="intro-line"></div>
+    <p>ENTERING KUYA'S DOMAIN</p>
+  </div>
+
+  <div class="bg-orb orb-a"></div>
+  <div class="bg-orb orb-b"></div>
+  <div class="particles" id="particles"></div>
+
+  <header class="topbar">
+    <div class="brand">KUYA<span>//</span>PROFILE</div>
+    <button id="customizeBtn" class="ghost-btn">CUSTOMIZE</button>
+  </header>
+
+  <main class="page">
+    <section class="profile-hero glass">
+      <div class="hero-banner" id="heroBanner"></div>
+      <div class="hero-content">
+        <div class="avatar-wrap">
+          <img id="kuyaAvatar" class="avatar" alt="Kuya profile picture">
+          <span class="online-dot"></span>
+        </div>
+        <div class="identity">
+          <div class="name-line">
+            <h1 id="kuyaName">Kuya</h1>
+            <button class="badge" id="loveBadge" title="Special badge">✦</button>
+            <span class="verified">✧</span>
+          </div>
+          <p id="kuyaBio">[I walk the path of darkness to hope to see the light again.]</p>
+          <div class="stats">
+            <span><b id="followers">8.7M</b> Followers</span>
+            <span><b id="following">1,284</b> Following</span>
+            <span><b id="friends">642</b> Friends</span>
+          </div>
+        </div>
+        <div class="hero-actions">
+          <button class="primary-btn" id="friendsBtn">VIEW FRIENDS</button>
+          <button class="icon-btn" id="settingsBtn">⚙</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <span class="eyebrow">KUYA'S CIRCLE</span>
+        <h2>Friends & people</h2>
+      </div>
+      <span class="counter">CLICK THE FIRST PROFILE</span>
+    </section>
+
+    <section class="friends-grid" id="friendsGrid"></section>
+
+    <footer>
+      <span>KUYA // PERSONAL DOMAIN</span>
+      <span>FULLY CUSTOMIZABLE PROFILE SYSTEM</span>
+    </footer>
+  </main>
+
+  <div class="modal hidden" id="profileModal">
+    <div class="modal-card">
+      <button class="close" data-close="profileModal">×</button>
+      <div class="modal-banner" id="modalBanner"></div>
+      <div class="modal-body">
+        <img id="modalAvatar" class="modal-avatar" alt="">
+        <div class="modal-name">
+          <h2 id="modalName"></h2>
+          <span id="modalBadge" class="mini-badge"></span>
+        </div>
+        <p id="modalBio"></p>
+        <div class="modal-stats">
+          <span><b id="modalFollowers"></b> followers</span>
+          <span><b id="modalFollowing"></b> following</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal hidden" id="loveModal">
+    <div class="modal-card love-card">
+      <button class="close" data-close="loveModal">×</button>
+      <div class="love-symbol">♥</div>
+      <div class="eyebrow">SPECIAL BADGE DETECTED</div>
+      <h2>Ooo~ looks like someone has someone they love.</h2>
+      <p><span id="loveOne">Kuya</span> <i>♥</i> <span id="loveTwo">Eclipse</span></p>
+    </div>
+  </div>
+
+  <div class="modal hidden" id="customizeModal">
+    <div class="modal-card customize-card">
+      <button class="close" data-close="customizeModal">×</button>
+      <div class="eyebrow">PROFILE CONTROL</div>
+      <h2>Customize Kuya</h2>
+      <p class="muted">Everything here is stored locally in the browser. Edit the values and reload the page.</p>
+      <div class="form-grid">
+        <label>Username<input id="editName"></label>
+        <label>Bio<input id="editBio"></label>
+        <label>Profile image URL<input id="editAvatar"></label>
+        <label>Background / banner URL<input id="editBanner"></label>
+        <label>Followers<input id="editFollowers"></label>
+        <label>Following<input id="editFollowing"></label>
+        <label>Friends<input id="editFriends"></label>
+        <label>Love interest<input id="editLove"></label>
+      </div>
+      <button class="primary-btn wide" id="saveProfile">SAVE PROFILE</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
