@@ -20,7 +20,7 @@ const people = [
   {name:"Clockturn", followers:"4 Friends/ 5,6M", avatar:"Profiles/clockturn.webp", banner:"Banners/NoBanner.webp", badge:"DEV!✦", streak:"234", gif:"streak.gif"},
   {name:"av,OBrozn", followers:"4,778 Friends/ 78", avatar:"Profiles/av,OBrozn.webp", banner:"Banners/NoBanner.webp", badge:"Kuya's mutual✦", streak:"4,569", gif:"streak.gif"},
   {name:"TOWWO-BOWWO", followers:"56 Friends/ 956K", avatar:"Profiles/TOWWO-BOWWO.webp", banner:"Banners/NoBanner.webp", badge:"Kuya's most talk to.✦", streak:"234", gif:"streak.gif"},
-  {name:"SICKY!!", followers:"678 Friends/ 190", avatar:"Profiles/sicky.gif", banner:"Banners/NoBanner.webp", badge:"DEV!✦", streak:"234", gif:"streak.gif"}
+  {name:"SICKY!!", followers:"678 Friends/ 5K", avatar:"Profiles/sicky.gif", banner:"Banners/NoBanner.webp", badge:"♥Kuya's Pinned!♥", streak:"7M", gif:"streak.gif"}
 ];
 
 let profile = JSON.parse(localStorage.getItem("kuyaProfile") || "null") || DEFAULTS;
