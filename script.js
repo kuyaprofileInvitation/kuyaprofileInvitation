@@ -5,7 +5,7 @@ const DEFAULTS = {
   banner: "kuya_banner.webp",
   followers: "7,567",
   following: "1,284",
-  friends: "642",
+  friends: "80",
   love: "¿alex!/rub1xthecube"
 };
 
