@@ -1,21 +1,17 @@
 const DEFAULTS = {
   name: "Kuya",
-  bio: "[I walk the path of darkness to hope to see the light again.]",
-  avatar: "https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?auto=format&fit=crop&w=500&q=85",
-  banner: "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1800&q=85",
-  followers: "8.7M",
+  bio: "[You are viewing {Kuya}] Profile. the streaks are meant to be the ones kuya keeps up with/very close with check below to see his friends. Powerd by: ECHO///SHARE",
+  avatar: "kuya.webp",
+  banner: "kuya_banner.webp",
+  followers: "7,567",
   following: "1,284",
   friends: "642",
-  love: "Eclipse"
+  love: "¿alex!/rub1xthecube"
 };
 
 const people = [
-  {name:"Aether", followers:"892K", avatar:"https://i.pravatar.cc/300?img=12", banner:"https://images.unsplash.com/photo-1534791547706-6c7e972b3d5a?auto=format&fit=crop&w=1000&q=80", badge:"✦", streak:"3K", gif:"https://media.giphy.com/media/26BRuo6sLetdllPAQ/giphy.gif", bio:"A quiet soul watching the stars."},
-  {name:"Eclipse", followers:"1.9M", avatar:"https://i.pravatar.cc/300?img=47", banner:"https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1000&q=80", badge:"♥", streak:"12K", gif:"https://media.giphy.com/media/3o7TKMt1VVNkHV2PaE/giphy.gif", bio:"Somewhere between midnight and forever."},
-  {name:"Mori", followers:"544K", avatar:"https://i.pravatar.cc/300?img=32", banner:"https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=80", badge:"", streak:"", gif:"", bio:"Lost in the static."},
-  {name:"Vanta", followers:"301K", avatar:"https://i.pravatar.cc/300?img=5", banner:"https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=1000&q=80", badge:"✧", streak:"4.2K", gif:"https://media.giphy.com/media/xT0GqssRweIhlz209i/giphy.gif", bio:"No light without the dark."},
-  {name:"Seraph", followers:"77K", avatar:"https://i.pravatar.cc/300?img=49", banner:"https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=1000&q=80", badge:"", streak:"", gif:"", bio:"Keep moving."},
-  {name:"Nox", followers:"2.2M", avatar:"https://i.pravatar.cc/300?img=68", banner:"https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1000&q=80", badge:"✦", streak:"8.9K", gif:"https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif", bio:"The night remembers everything."}
+  {name:"A-SHEN-TADES", followers:"1,9M", avatar:"Profiles/tades.jpg", banner:"Banners/tades_banner.jpg", badge:"Kuya's most talk to.✦", streak:"890K", gif:"streak.gif"},
+  {name:"TOZI [NOODLE BIG BACK]", followers:"1,9M", avatar:"Profiles/tozi.jpg", banner:"Banners/tozi_banner.jpg", badge:"Kuya's most talk to.✦", streak:"789K", gif:"streak.gif"},
 ];
 
 let profile = JSON.parse(localStorage.getItem("kuyaProfile") || "null") || DEFAULTS;
@@ -72,29 +68,8 @@ document.addEventListener("click", e=>{
 });
 
 $("loveBadge").onclick = () => $("loveModal").classList.remove("hidden");
-$("customizeBtn").onclick = () => {
-  $("editName").value=profile.name; $("editBio").value=profile.bio; $("editAvatar").value=profile.avatar;
-  $("editBanner").value=profile.banner; $("editFollowers").value=profile.followers; $("editFollowing").value=profile.following;
-  $("editFriends").value=profile.friends; $("editLove").value=profile.love;
-  $("customizeModal").classList.remove("hidden");
-};
-$("settingsBtn").onclick = () => $("customizeBtn").click();
+// Settings/customization UI intentionally removed.
 $("friendsBtn").onclick = () => $("friendsGrid").scrollIntoView({behavior:"smooth",block:"center"});
-$("saveProfile").onclick = () => {
-  profile = {
-    name:$("editName").value || DEFAULTS.name,
-    bio:$("editBio").value || DEFAULTS.bio,
-    avatar:$("editAvatar").value || DEFAULTS.avatar,
-    banner:$("editBanner").value || DEFAULTS.banner,
-    followers:$("editFollowers").value || DEFAULTS.followers,
-    following:$("editFollowing").value || DEFAULTS.following,
-    friends:$("editFriends").value || DEFAULTS.friends,
-    love:$("editLove").value || DEFAULTS.love
-  };
-  localStorage.setItem("kuyaProfile", JSON.stringify(profile));
-  applyProfile();
-  $("customizeModal").classList.add("hidden");
-};
 
 function particles(){
   const box=$("particles");
