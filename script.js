@@ -13,7 +13,7 @@ const people = [
   {name:"A-SHEN-TADES", followers:"1,9M/ 4,9K Friends", avatar:"Profiles/tades.jpg", banner:"Banners/tades_banner.jpg", badge:"Kuya's most talk to.✦", streak:"890K", gif:"streak.gif"},
   {name:"TOZI [NOODLE BIG BACK]", followers:"300k/ 600 Friends", avatar:"Profiles/tozi.jpg", banner:"Banners/tozi_banner.jpg", badge:"Kuya's most talk to.✦", streak:"789K", gif:"streak.gif"},
   {name:"Auddo!", followers:"890", avatar:"Profiles/Auddo.webp", banner:"Banners/NoBanner.webp", badge:"Kuya's most talk to.✦", streak:"890K", gif:"streak.gif"},
-  {name:"Yoriyen", followers:"6,2M/ 7 Friends", avatar:"Profiles/yoriyen.webp", banner:"Banners/yoriyen_banner", badge:"DEV!", streak:"234", gif:"streak.gif"},
+  {name:"Yoriyen", followers:"6,2M/ 7 Friends", avatar:"Profiles/yoriyen.webp", banner:"Banners/yoriyen_banner.jpg", badge:"DEV!", streak:"234", gif:"streak.gif"},
   
 ];
 
