@@ -1,7 +1,7 @@
 const DEFAULTS = {
   name: "Kuya",
-  bio: "[You are viewing {Kuya}] Profile. the streaks are meant to be the ones kuya keeps up with/very close with check below to see his friends. Powerd by: ECHO///SHARE",
-  avatar: "kuya.webp",
+  bio: "Being yourself is more Attractive than being someone you're not.",
+  avatar: "kuya.gif",
   banner: "kuya_banner.webp",
   followers: "7,567",
   following: "1,284",
@@ -10,8 +10,11 @@ const DEFAULTS = {
 };
 
 const people = [
-  {name:"A-SHEN-TADES", followers:"1,9M", avatar:"Profiles/tades.jpg", banner:"Banners/tades_banner.jpg", badge:"Kuya's most talk to.✦", streak:"890K", gif:"streak.gif"},
-  {name:"TOZI [NOODLE BIG BACK]", followers:"1,9M", avatar:"Profiles/tozi.jpg", banner:"Banners/tozi_banner.jpg", badge:"Kuya's most talk to.✦", streak:"789K", gif:"streak.gif"},
+  {name:"A-SHEN-TADES", followers:"1,9M/ 4,9K Friends", avatar:"Profiles/tades.jpg", banner:"Banners/tades_banner.jpg", badge:"Kuya's most talk to.✦", streak:"890K", gif:"streak.gif"},
+  {name:"TOZI [NOODLE BIG BACK]", followers:"300k/ 600 Friends", avatar:"Profiles/tozi.jpg", banner:"Banners/tozi_banner.jpg", badge:"Kuya's most talk to.✦", streak:"789K", gif:"streak.gif"},
+  {name:"Auddo!", followers:"890", avatar:"Profiles/Auddo.webp", banner:"Banners/NoBanner.webp", badge:"Kuya's most talk to.✦", streak:"890K", gif:"streak.gif"},
+  {name:"Yoriyen", followers:"6,2M/ 7 Friends", avatar:"Profiles/yoriyen.webp", banner:"Banners/yoriyen_banner", badge:"DEV!", streak:"234", gif:"streak.gif"},
+  
 ];
 
 let profile = JSON.parse(localStorage.getItem("kuyaProfile") || "null") || DEFAULTS;
