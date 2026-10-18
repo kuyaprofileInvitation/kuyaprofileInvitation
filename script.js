@@ -17,7 +17,7 @@ const people = [
   
    {name:"Daniela", followers:"340K/ 567 Friends", avatar:"Profiles/Daniela.webp", banner:"Banners//NoBanner.webp", badge:"Kuya's most talk to.✦", streak:"567K", gif:"streak.gif"},
   {name:"ECHO//SHARE", followers:"2M/ 1,890 Friends", avatar:"Profiles/echo.webp", banner:"Banners/echo_share_banner.gif", badge:"STAFF✦/Kuya's most talk to.✦", streak:"2B", gif:"streak.gif"},
-  {name:"Clockturn", followers:"5,6M/ 4 Friends", avatar:"Profiles/clockturn.webp", banner:"Banners//NoBanner.webp", badge:"Kuya's most talk to.✦", streak:"234", gif:"streak.gif"},
+  {name:"Clockturn", followers:"5,6M/ 4 Friends", avatar:"Profiles/clockturn.webp", banner:"Banners//NoBanner.webp", badge:"DEV!✦", streak:"234", gif:"streak.gif"},
 
 ];
 
