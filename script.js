@@ -10,9 +10,11 @@ const DEFAULTS = {
 };
 
 const people = [
-  {name:"A-SHEN-TADES", followers:"4,9K Friends/ 1,9M", avatar:"Profiles/tades.jpg", banner:"Banners/tades_banner.jpg", badge:"♥Kuya's Pinned!♥", streak:"890K", gif:"streak.gif"},
-  {name:"TOZI [NOODLE BIG BACK]", followers:"600 Friends/ 300K", avatar:"Profiles/tozi.jpg", banner:"Banners/tozi_banner.jpg", badge:"♥Kuya's Pinned!♥", streak:"789M", gif:"streak.gif"},
-  {name:"Clenn", followers:"90 Friends/ 1,2M", avatar:"Profiles/clenn.gif", banner:"Banners/NoBanner.webp", badge:"♥Kuya's Pinned!♥", streak:"789M", gif:"streak.gif"},
+  {name:"A-SHEN-TADES", followers:"4,9K Friends/ 1,9M", avatar:"Profiles/tades.jpg", banner:"Banners/tades_banner.jpg", badge:"♥Kuya's Pinned!♥", streak:"1B🔱", gif:"16-15-16-464_512.gif"},
+  {name:"TOZI [NOODLE BIG BACK]", followers:"600 Friends/ 300K", avatar:"Profiles/tozi.jpg", banner:"Banners/tozi_banner.jpg", badge:"♥Kuya's Pinned!♥", streak:"1B🔱", gif:"16-15-16-464_512.gif"},
+  {name:"Light_Noiz", followers:"200 Friends/ 978K", avatar:"Profiles/light.jpg", banner:"Banners/light_banner.gif", badge:"♥Kuya's Pinned!♥", streak:"1B🔱", gif:"16-15-16-464_512.gif"},
+  {name:"Clenn", followers:"90 Friends/ 1,2M", avatar:"Profiles/clenn.gif", banner:"Banners/NoBanner.webp", badge:"♥Kuya's Pinned!♥", streak:"1B🔱", gif:"16-15-16-464_512.gif"},
+
   {name:"Hottie", followers:"120 Friends/110M", avatar:"Profiles/hottie-kottie.gif", banner:"Banners/NoBanner.webp", badge:"♥Kuya's Pinned!♥", streak:"789M", gif:"streak.gif"},
   {name:"Auddo!", followers:"983 Friends/ 890", avatar:"Profiles/Auddo.webp", banner:"Banners/NoBanner.webp", badge:"♥Kuya's Pinned!♥", streak:"890M", gif:"streak.gif"},
   {name:"Yoriyen", followers:"7 Friends/ 6,2M", avatar:"Profiles/yoriyen.webp", banner:"Banners/yoriyen_banner.jpg", badge:"DEV!", streak:"234", gif:"streak.gif"},
@@ -21,7 +23,7 @@ const people = [
   {name:"Clockturn", followers:"4 Friends/ 5,6M", avatar:"Profiles/clockturn.webp", banner:"Banners/NoBanner.webp", badge:"DEV!✦", streak:"234", gif:"streak.gif"},
   {name:"av,OBrozn", followers:"4,778 Friends/ 78", avatar:"Profiles/av,OBrozn.webp", banner:"Banners/NoBanner.webp", badge:"Kuya's mutual✦", streak:"4,569", gif:"streak.gif"},
   {name:"TOWWO-BOWWO", followers:"56 Friends/ 956K", avatar:"Profiles/TOWWO-BOWWO.webp", banner:"Banners/NoBanner.webp", badge:"Kuya's most talk to.✦", streak:"234", gif:"streak.gif"},
-  {name:"SICKY!!", followers:"678 Friends/ 5K", avatar:"Profiles/sicky.gif", banner:"Banners/NoBanner.webp", badge:"♥Kuya's Pinned!♥", streak:"7M", gif:"streak.gif"}
+  {name:"SICKY!!", followers:"678 Friends/ 5K", avatar:"Profiles/sicky.gif", banner:"Banners/NoBanner.webp", badge:"♥Kuya's Pinned!♥", streak:"7M", gif:"streak.gif"},
 ];
 
 let profile = JSON.parse(localStorage.getItem("kuyaProfile") || "null") || DEFAULTS;
