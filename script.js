@@ -30,8 +30,9 @@ const people = [
   {name:"🔱HazelsBuckerBun", followers:"78K Friends/ 567.4M", avatar:"Profiles/HazelsBuckerBun.webp", banner:"Banners/Scanty and Kneesocks.webp", badge:"♥Kuya's Pinned!♥", streak:"600", gif:"streak.gif"},
   {name:"lieutenant", followers:"5,890 Friends/ 889K", avatar:"Profiles/lieutenant.jpg", banner:"Banners/northface-2.gif", badge:"♥Kuya's Pinned!♥", streak:"8,976", gif:"streak.gif"},
   {name:"wetbuns", followers:"458 Friends/ 2,4M", avatar:"Profiles/ad11c5f89377440e26123e1076c0a292.webp", banner:"Banners/NoBanner.webp", streak:"10,000", gif:"streak.gif"},
+];
 
-profile = JSON.parse(localStorage.getItem("kuyaProfile") || "null") || DEFAULTS;
+let profile = JSON.parse(localStorage.getItem("kuyaProfile") || "null") || DEFAULTS;
 
 const $ = id => document.getElementById(id);
 
