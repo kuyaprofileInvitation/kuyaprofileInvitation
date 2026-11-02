@@ -19,14 +19,19 @@ const people = [
   {name:"Auddo!", followers:"983 Friends/ 890", avatar:"Profiles/Auddo.webp", banner:"Banners/NoBanner.webp", badge:"♥Kuya's Pinned!♥", streak:"890M", gif:"streak.gif"},
   {name:"Yoriyen", followers:"7 Friends/ 6,2M", avatar:"Profiles/yoriyen.webp", banner:"Banners/yoriyen_banner.jpg", badge:"DEV!", streak:"234", gif:"streak.gif"},
   {name:"Daniela", followers:"567 Friends/ 340K", avatar:"Profiles/Daniela.webp", banner:"Banners/NoBanner.webp", badge:"Kuya's most talk to.✦", streak:"567K", gif:"streak.gif"},
+
   {name:"ECHO//SHARE", followers:"1,890 Friends/ 2M", avatar:"Profiles/echo.webp", banner:"Banners/echo_share_banner.gif", badge:"STAFF✦/Kuya's most talk to.✦", streak:"2B", gif:"streak.gif"},
   {name:"Clockturn", followers:"4 Friends/ 5,6M", avatar:"Profiles/clockturn.webp", banner:"Banners/NoBanner.webp", badge:"DEV!✦", streak:"234", gif:"streak.gif"},
   {name:"av,OBrozn", followers:"4,778 Friends/ 78", avatar:"Profiles/av,OBrozn.webp", banner:"Banners/NoBanner.webp", badge:"Kuya's mutual✦", streak:"4,569", gif:"streak.gif"},
   {name:"TOWWO-BOWWO", followers:"56 Friends/ 956K", avatar:"Profiles/TOWWO-BOWWO.webp", banner:"Banners/NoBanner.webp", badge:"Kuya's most talk to.✦", streak:"234", gif:"streak.gif"},
-  {name:"SICKY!!", followers:"678 Friends/ 5K", avatar:"Profiles/sicky.gif", banner:"Banners/NoBanner.webp", badge:"♥Kuya's Pinned!♥", streak:"7M", gif:"streak.gif"},
-];
 
-let profile = JSON.parse(localStorage.getItem("kuyaProfile") || "null") || DEFAULTS;
+  {name:"SICKY!!", followers:"678 Friends/ 5K", avatar:"Profiles/sicky.gif", banner:"Banners/NoBanner.webp", badge:"♥Kuya's Pinned!♥", streak:"7M", gif:"streak.gif"},
+  {name:"Tothetidesat12", followers:"208K Friends/ 547.4M", avatar:"Profiles/Tothetidesat12.webp", banner:"Banners/Scanty and Kneesocks.webp", badge:"♥Kuya's Pinned!♥", streak:"700", gif:"streak.gif"},
+  {name:"🔱HazelsBuckerBun", followers:"78K Friends/ 567.4M", avatar:"Profiles/HazelsBuckerBun.webp", banner:"Banners/Scanty and Kneesocks.webp", badge:"♥Kuya's Pinned!♥", streak:"600", gif:"streak.gif"},
+  {name:"lieutenant", followers:"5,890 Friends/ 889K", avatar:"Profiles/lieutenant.jpg", banner:"Banners/northface-2.gif", badge:"♥Kuya's Pinned!♥", streak:"8,976", gif:"streak.gif"},
+  {name:"wetbuns", followers:"458 Friends/ 2,4M", avatar:"Profiles/ad11c5f89377440e26123e1076c0a292.webp", banner:"Banners/NoBanner.webp", streak:"10,000", gif:"streak.gif"},
+
+profile = JSON.parse(localStorage.getItem("kuyaProfile") || "null") || DEFAULTS;
 
 const $ = id => document.getElementById(id);
 
